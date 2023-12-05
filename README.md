@@ -26,8 +26,8 @@ update
 
 ### Opciones
 
-- `--version`: Muestra la versión actual de la herramienta y sale.
-- `-v`, `--verbose`: Muestra información detallada durante la ejecución.
+- `-v`, `--version`: Muestra la versión actual de la herramienta y sale.
+- `-V`, `--verbose`: Muestra información detallada durante la ejecución.
 
 ## Contribución
 
