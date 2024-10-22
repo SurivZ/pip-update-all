@@ -3,11 +3,11 @@ from setuptools import setup, find_packages
 
 setup(
     name='pip-update-all',
-    version='1.0.0',
+    version='0.0.1',
     author='SurivZ',
     author_email='franklinserrano23@email.com',
     description='Paquete para actualizar todos los paquetes instalados con pip',
-    long_description=open('readme.md', encoding='utf-8').read(),
+    long_description=open('./readme.md', encoding='utf-8').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/SurivZ/pip-update-all',
     packages=find_packages(),
