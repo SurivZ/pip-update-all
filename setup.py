@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pip-update-all',
-    version='0.0.2',
+    version='0.0.3',
     author='SurivZ',
     author_email='franklinserrano23@email.com',
     description='Paquete para actualizar todos los paquetes instalados con pip',
@@ -30,7 +30,8 @@ setup(
     install_requires=[],
     entry_points={
         'console_scripts': [
-            'update = source:main',
+            'update = source:ud',
+            'outdated = source:lod',
         ],
     },
 )

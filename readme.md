@@ -27,12 +27,17 @@ pip install .
 
 ## Uso
 
-### Comando básico
+### Comandos básicos
 
 Para actualizar todos los paquetes instalados:
 
 ```bash
 update
+```
+Para listar los paquetes instalados que estén desactualizados:
+
+```bash
+outdated
 ```
 
 ### Modo Verboso
@@ -42,6 +47,10 @@ Si deseas ver más información durante la ejecución:
 ```bash
 update --verbose
 ```
+También puedes usar su versión abreviada:
+```bash
+update -V
+```
 
 ### Versión del programa
 
@@ -49,6 +58,10 @@ Para ver el número de versión:
 
 ```bash
 update --version
+```
+Versión abreviada:
+```bash
+update -v
 ```
 
 ## Contribuir
