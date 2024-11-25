@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pip-update-all',
-    version='0.0.3',
+    version='0.1.0',
     author='SurivZ',
     author_email='franklinserrano23@email.com',
     description='Paquete para actualizar todos los paquetes instalados con pip',
@@ -12,7 +12,7 @@ setup(
     url='https://github.com/SurivZ/pip-update-all',
     packages=find_packages(),
     classifiers=[
-        'Development Status :: 4 - Beta',
+        'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
         'Operating System :: OS Independent',

@@ -6,7 +6,7 @@ from os import name
 def get_args() -> Namespace:
     parser = ArgumentParser(description='Actualice todas las dependencias instaladas con pip.')
 
-    parser.add_argument('-v', '--version', action='version', version='%(prog)s v0.0.3', help='Mostrar el número de versión del programa y salir.')
+    parser.add_argument('-v', '--version', action='version', version='%(prog)s v0.1.0', help='Mostrar el número de versión del programa y salir.')
     parser.add_argument('-V', '--verbose', action='store_true', default=False, help='Mostrar más información al ejecutar el programa.')
     
     return parser.parse_args()
